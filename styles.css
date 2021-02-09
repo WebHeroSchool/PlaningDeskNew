@@ -55,7 +55,7 @@
 }
  .menu__item {
    position: relative;
-   margin-right: 26px;
+   margin-right: 23px;
    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
    color: #000;
    text-decoration: none;
@@ -87,15 +87,16 @@
    background: top right no-repeat url(img/logo.png);	
 }
   .main__title {
-   padding-top: 10px;
+   padding-top: 80px;
    margin: 0 0 40px 0;
    font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
 }
  .main__subtitle {
-   margin: 0 0 41px 0;
+   margin: 0 0 42px 0;
    font: 26px/30px Roboto_reg, arial, helvetica, sans-serif;
 }
  .main__button {
+   padding-top: 20px
    display: inline-block;
    font: 18px/21px Roboto_reg, arial, helvetica, sans-serif;
    color: #fff;
