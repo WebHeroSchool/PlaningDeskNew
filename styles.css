@@ -3,9 +3,6 @@
    width: 80%;
 }
  .logo, .menu {
-
-}
- .logo, .menu {
    display: inline-block;
 }
  .logo {
@@ -21,6 +18,7 @@
    padding: 40px 0;
    padding-left: 44px;
    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+   letter-spacing: 1px;
 }
  .menu {
    display: flex;
@@ -28,7 +26,7 @@
 }
 
  .menu__item { 
-   padding: 0 0px;
+   padding: 0px 0px;
 }
  .menu__item:last-child {
    padding-right: 0;	
@@ -55,8 +53,8 @@
 }
  .menu__item {
    position: relative;
-   margin-right: 23px;
-   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+   margin-right: 27px;
+   font: 18px/21px Roboto, arial, helvetica, sans-serif;
    color: #000;
    text-decoration: none;
    transition: opacity .5s
@@ -87,21 +85,23 @@
    background: top right no-repeat url(img/logo.png);	
 }
   .main__title {
-   padding-top: 80px;
+   padding-top: 71px;
    margin: 0 0 40px 0;
    font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+   letter-spacing: 2.5px;
 }
  .main__subtitle {
-   margin: 0 0 42px 0;
-   font: 26px/30px Roboto_reg, arial, helvetica, sans-serif;
+   margin: 0 0 40px 0;
+   font: 22px/26px Roboto_reg, arial, helvetica, sans-serif;
+   width: 80%;
 }
  .main__button {
-   padding-top: 20px
    display: inline-block;
-   font: 18px/21px Roboto_reg, arial, helvetica, sans-serif;
+   font: 18px/22px Roboto_reg, arial, helvetica, sans-serif;
    color: #fff;
    background: #0056EC;
-   padding: 18px 21px;
+   padding: 18px 25px;
+   width: 39.5%;
    text-decoration: none;
    border-radius: 4px;
    transition: opacity .5s;
@@ -112,6 +112,60 @@
  .main__title-text_highlight {
    background: #ECF3FF;
 }
+
+
+@media (max-width: 1367px) {
+ .wrapper {
+   margin: auto;
+   width: 69%;
+}
+ .logo {
+   margin-right: 45%;
+}
+  .menu__item {
+   position: relative;
+   margin-right: 37px;
+   font: 13px/15px Roboto, arial, helvetica, sans-serif;
+   color: #000;
+   text-decoration: none;
+   transition: opacity .5s
+}
+ .header {
+   margin-bottom: 100px;
+}
+ .main {
+   padding: 0 48% 130px 0;
+   background: top right no-repeat url(img/logo1.png);
+}
+  .main__title {
+   padding-top: 2.5px;
+   margin: 0 0 38px 0;
+   font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+   letter-spacing: 2px;
+}
+ .main__subtitle {
+   margin: 0 0 42px 0;
+   font: 400 18px/20px Roboto_reg, arial, helvetica, sans-serif;
+   width: 80%;
+}
+ .main__button {
+   font: 14px/16px Roboto_reg, arial, helvetica, sans-serif;
+   padding: 14px 16px;
+   width: 38%;
+}
+
+
+
+
+
+ 
+ 
+   
+ 
+
+
+
+ 
 
  
 
