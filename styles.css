@@ -3,6 +3,9 @@
    width: 80%;
 }
  .logo, .menu {
+
+}
+ .logo, .menu {
    display: inline-block;
 }
  .logo {
@@ -120,25 +123,29 @@
    width: 69%;
 }
  .logo {
-   margin-right: 45%;
+   margin-right: 33%;
+}
+ .menu {
+   margin-right: 8px;
 }
   .menu__item {
    position: relative;
-   margin-right: 37px;
-   font: 13px/15px Roboto, arial, helvetica, sans-serif;
+   margin-right: 26px;
+   padding-top: 8px;
+   font: 14px/16px Roboto, arial, helvetica, sans-serif;
    color: #000;
    text-decoration: none;
    transition: opacity .5s
 }
  .header {
-   margin-bottom: 100px;
+   margin-bottom: 88px;
 }
  .main {
    padding: 0 48% 130px 0;
    background: top right no-repeat url(img/logo1.png);
 }
   .main__title {
-   padding-top: 2.5px;
+   padding-top: 14px;
    margin: 0 0 38px 0;
    font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
    letter-spacing: 2px;
@@ -150,11 +157,38 @@
 }
  .main__button {
    font: 14px/16px Roboto_reg, arial, helvetica, sans-serif;
-   padding: 14px 16px;
-   width: 38%;
+   padding: 15px 17px;
+   width: 36.5%;
 }
-
-
+@media (max-width: 1025px) {
+ .wrapper {
+   margin: auto;
+   width: 91%;
+}
+ .logo {
+   margin-right: 46.3%;
+}
+  .menu {
+   margin-right: 10px;
+}
+  .menu__item {
+   margin-right: 27px;
+   padding-top: 9.5px;
+   font: 12px/14px Roboto, arial, helvetica, sans-serif;
+}
+  .header {
+   margin-bottom: 85px;
+}
+ .main__title {
+   padding-top: 15.5px;
+   margin: 0 0 38px 0;
+   font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+   letter-spacing: 2px;
+}
+ .main {
+   padding: 0 48% 130px 0;
+   background: top right -3% no-repeat url(img/logo1.png);
+}
 
 
 
