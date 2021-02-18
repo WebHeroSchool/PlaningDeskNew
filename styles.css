@@ -242,30 +242,34 @@
  .main {
    text-align: center;
    padding: 74% 0 0;
-   background-size: 74%;
+   background: top right no-repeat url(img/logo.png);
+   background-size: 82%;
    background-position: top center;
 }
  .main__title {
    margin-bottom: 44px;
-   padding-left: 15%;
-   font: bold 40px/49px pt_serif, arial, helvetica, sans-serif;
-   width: 70%;
+   padding-left: 25%;
+   font: bold 35px/44px pt_serif, arial, helvetica, sans-serif;
+   width: 52%;
 }
  .main__subtitle {
    margin-bottom: 25px;
-   padding-left: 18%;
+   padding-left: 25%;
+   letter-spacing: 1px;
    font: 500 16px/19px Roboto_reg, arial, helvetica, sans-serif;
-   width: 65%;
+   width: 50%;
 }
  .main__button {
    font: 500 14px/16px Roboto_reg, arial, helvetica, sans-serif;
+   padding: 12px 14px;
+   width: 25%;
 }
  .menu__btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 29px;
+    top: 22.5px;
     width: 23px;
     height: 23px;
     cursor: pointer;
@@ -278,13 +282,13 @@
     display: block;
     position: absolute;
     width: 100%;
-    height: 5px;
+    height: 4px;
     background-color: #0056ec;
   }
 
   .menu__btn > span::before {
     content: '';
-    top: -13px;
+    top: 7px;
   }
 
   .menu__btn > span::after {
@@ -300,7 +304,7 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 170px 0;
+    padding: 320px 0;
     list-style: none;
     text-align: center;
     background-color: #fff;
@@ -310,7 +314,7 @@
 
   .menu__item {
     display: block;
-    padding: 120px 24px 0 0;
+    padding: 70px 24px 0 0;
     color: #333;
     font: 500 50px/34px Roboto, sans-serif;
     text-decoration: none;
@@ -337,7 +341,38 @@
  .logo {
     text-indent: 100%;
 }
-
+@media (max-width: 375px) {
+ .header {
+   margin-bottom: 24px;
+}
+ .main__title {
+   margin-bottom: 37px;
+   padding-top: 10px;
+   padding-left: 1.5%;
+   font: bold 29px/39px pt_serif, arial, helvetica, sans-serif;
+   width: 100%;
+}
+  .main__subtitle {
+   margin-bottom: 24px;
+   padding-left: 13%;
+   letter-spacing: 0;
+   font: 16px/19px Roboto_reg, arial, helvetica, sans-serif;
+   width: 75%;
+}
+ .main__button {
+   font: 500 14px/16px Roboto_reg, arial, helvetica, sans-serif;
+   padding: 13px 15px;
+   width: 55%;
+}
+  .menu__item {
+    display: block;
+    padding: 15px 0 0 0;
+    color: #333;
+    font: 500 30px/34px Roboto, sans-serif;
+    text-decoration: none;
+}
+ .menu__box {
+   padding: 280px 0;
 
 
 
