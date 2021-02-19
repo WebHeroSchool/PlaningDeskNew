@@ -510,7 +510,6 @@
    width: 35%;
 } 
 
-
 @media (max-width: 375px) {
  .header {
    margin-bottom: 24px;
@@ -545,30 +544,4 @@
  .menu__box {
    padding: 270px 0;
 }
-
-
-
- 
- 
-   
- 
-
-
-
- 
-
- 
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-  
+}
